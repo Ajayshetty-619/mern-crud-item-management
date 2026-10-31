@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    padding: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+.edit {
+    background: green;
+}
+
+.delete {
+    background: red;
+}
